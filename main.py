@@ -2,11 +2,7 @@ from enum import auto
 from bs4 import BeautifulSoup
 import requests
 import csv
-
-FILE_NAME = "electric_cars_chile.csv"
-URL = "https://energia.gob.cl/electromovilidad/catalogo?page="
-MIN = 1
-MAX = 13
+from settings import FILE_NAME, URL, MIN, MAX
 
 cars_data = []
 
